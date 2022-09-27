@@ -14,4 +14,5 @@ for i in range(200):
 state_distributions = pd.DataFrame(p_state_t)
 print(state_distributions)
 
-print(plt.plot(state_distributions))
+plt.plot(state_distributions)
+plt.show()
